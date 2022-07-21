@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Contact - Barbershop</title>
+
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<header>
+		<div class="box">
+			<h1><img src="logo.png" alt="Barbershop logo"></h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</nav>
+		</div>
+	</header>
+
+	<main>
+		<form>
+			<label for="name">Name</label>
+			<input type="text" id="name" class="input-padrao" required>
+
+			<label for="email">E-mail</label> 
+			<input type="email" id="email" class="input-padrao" required placeholder="youremail@domain.com">
+
+			<label for="telephone">Telephone</label>
+			<input type="tel" id="telephone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+			<label for="message">Message</label>
+			<textarea cols="70" rows="10" id="message" class="input-padrao" required></textarea>
+
+			<fieldset>
+				<legend>How do you prefer our contact?</legend>
+
+				<label for="radio-email"><input type="radio" name="contact" value="e-mail" inputmode="radio-email">E-mail</label>
+
+				<label for="radio-telephone"><input type="radio" name="contact" value="radio-telephone">Telephone </label>
+
+				<label for="radio-zaptelegram"><input type="radio" name="contact" value="zaptelegram" id="radio-zaptelegram" checked>WhatsApp or Telegram</label>
+			</fieldset>
+
+			<fieldset>
+			<legend>What time do you prefer us to contact you?</legend>
+				<select>
+					<option>Morning</option>
+					<option>Afternoon</option>
+					<option>Night</option>
+				</select>
+			</fieldset>
+
+			<label class="checkbox"><input type="checkbox" checked>Would you like to receive our news in your e-mail?</label>
+
+			<input type="submit" name="contact" value="Submit Form" class="submit">
+		</form>
+
+		<table>
+			<thead>
+				<tr>
+					<th>Dat</th>
+					<th>Time</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Monday</td>
+					<td>8h - 20h</td>
+				</tr>
+				<tr>
+					<td>Wednesday</td>
+					<td>8h - 20h</td>
+				</tr>
+				<tr>
+					<td>Friday/td>
+					<td>8h - 20h</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</main>
+
+<footer>
+		<img src="white-logo.png" alt="Barbershop logo">
+		<p class="copyright"><a href="https://github.com/Duduenri"> 	
+&copy; Copyright Barber Shop - 2022</a></p>
+	</footer>
+</body>
+</html>
