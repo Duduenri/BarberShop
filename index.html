@@ -3,16 +3,34 @@
 		<head>
 			<meta charset="UTF-8">
 		 	<title>Barber Shop</title>
-		 	<link rel="stylesheet"  href="style-home.css">
+
+		 	<link rel="stylesheet" href="reset.css">
+			<link rel="stylesheet" href="style.css">
+			<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 		</head>
 
 		<body>
 			<header>
-				<h1 class="main-title">Barber Shop</h1>
-			</header>
-			<img id="banner" src="banner.jpg">
-			<div class="main">
-				<h2 class="centralized-title">About the Baber shop</h2>
+		<div class="box">
+			<h1><img src="logo.png"></h1>
+
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="products.html">Products</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+		</nav>
+		</div>
+	</header>
+
+			<img class="banner" src="banner.jpg">
+			
+		<main>
+			<section class="main">
+				<h2 class="main-title">About the Baber shop</h2>
+
+				<img class="utensils" src="utensils.jpg" alt="Barber's tools" >
 
 				<p>Located in the heart of the city, <strong>Baber Shop</strong> brings to the market the best for your hair and beard. Founded in 2022, the Baber Shop is already a highlight in the city and conquers new customers every day</p>
 
@@ -20,18 +38,41 @@
 
 				<p>We offer skilled professionals who are up to date with new changes in the fashion world. The service has a standard of excellence and agility, guaranteeing quality and satisfaction to our customers.</p>
 
+			</section>
+
+			<section class="map">
+				<h3 class="main-title">The location of the establishment</h3>
+				<p>Our establishment is very well located in the city</p>
+
+				<div class="map-content">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3391.9914026690235!2d-52.345032585053815!3d-31.77072042065877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b59663e64d17%3A0x49cec507b3d9ade5!2sMercado%20Municipal%20Pelotas!5e0!3m2!1sen!2sbr!4v1658698977078!5m2!1sen!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+				</div>
+			</section>
+
+			<section class="benefits">
+					<h3 class="main-title">Benefits</h3>
+
+				<div class="content-benefits">
+					<ul class="list-benefits">
+						<li class="items">Excellent customer service</li>
+						<li class="items">Comfortable space</li>
+						<li class="items">Good location</li>
+						<li class="items">Qualified professionals</li>
+						<li class="items">Punctuality</li>
+						<li class="items">Hygienic Environment</li>
+					</ul><img src="benefits.jpg" class="img-benefits">
 			</div>
 
-			<div class="benefits">
-					<h3 class="centralized-title">Benefits</h3>
+				<div class="video">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</div>
+			</section>
+		</main>
 
-				<ul>
-					<li class="items">Excellent customer service</li>
-					<li class="items">Comfortable space</li>
-					<li class="items">Good location</li>
-					<li class="items">Qualified professionals</li>
-				</ul>
-				<img src="benefits.jpg" class="imgbenefits">
-			</div>
+			<footer>
+				<img src="white-logo.png">
+				<p class="copyright"><a href="https://github.com/Duduenri"> 	
+		&copy; Copyright Barber Shop - 2022</a></p>
+			</footer>
 		</body>
 </html>
