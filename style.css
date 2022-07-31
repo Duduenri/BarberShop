@@ -239,9 +239,34 @@ td, th {
 
 .img-benefits {
 	width: 60%;
+	opacity: 1;
+	transition: 400ms;
+	box-shadow: 10px 10px 15px 0 #000000;
+}
+
+.img-benefits:hover {
+	opacity: 0.3;
+
 }
 
 .video {
 	width: 560px;
 	margin: 2em auto;
+}
+
+@media screen and (max-width: 480px) {
+	.box, .main, .content-benefits, .map-content, .video  {
+		width: auto;
+	}
+
+	h1 {
+		text-align: center;
+	}
+
+	nav {
+		position: static;
+ } 
+ 	.list-benefits, .img-benefits {
+		width: 100%;
+	}
 }
